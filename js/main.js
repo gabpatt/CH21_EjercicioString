@@ -1,6 +1,6 @@
 // ejercicios de String
 //usando .chartAt - podemos saber cuantas veces esta un caracter en un string
-
+/*
 
 let nombre = "Gabriela";
 nombre = nombre.toUpperCase();
@@ -21,3 +21,15 @@ for (let index=0; index< nombre.length; index++){
     }
 }
 console.log(letra, contador);
+*/
+
+let nombre= "Laura Aline";
+let nuevo = "";
+
+function invertido(){
+    for (let i=nombre.length-1; i>=0; i--){
+        nuevo += nombre[i];
+    }
+    return nuevo;
+}
+console.log(invertido ("Laura Aline"));
